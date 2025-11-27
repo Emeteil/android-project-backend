@@ -5,7 +5,7 @@
 #include <unistd.h>
 
 #define PORT 12345
-#define HOST "127.0.0.1"
+#define HOST "94.159.111.243"
 
 int main(int argc, char const *argv[])
 {

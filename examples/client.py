@@ -1,6 +1,6 @@
 import socket
 
-HOST = "localhost"
+HOST = "94.159.111.243"
 PORT = 12345
 
 def main():
