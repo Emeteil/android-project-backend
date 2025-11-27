@@ -9,6 +9,9 @@ def main():
 
         while True:
             text = input("> ")
+            
+            if (text == "exit"):
+                break
 
             client_socket.send(text.encode())
 
