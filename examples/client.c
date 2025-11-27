@@ -12,8 +12,6 @@ int main(int argc, char const *argv[])
     int status, valread, client_fd;
     struct sockaddr_in serv_addr;
 
-    char *hello = "Hello from C client!";
-
     char buffer[1024] = {0};
     if ((client_fd = socket(AF_INET, SOCK_STREAM, 0)) < 0)
     {
